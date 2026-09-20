@@ -1,0 +1,11 @@
+{
+  "name": "nova-demo-widget",
+  "version": "1.0.0",
+  "description": "A tiny demo web app for testing automated setup and hosting.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "node ./scripts/setup-check.js"
+  },
+  "dependencies": {}
+}
